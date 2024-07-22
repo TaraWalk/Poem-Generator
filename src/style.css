@@ -1,9 +1,10 @@
 body {
   background-color: aliceblue;
   background-image: url("https://images7.alphacoders.com/135/thumb-1920-1353023.png");
+  background-size: 100%;
 }
 a {
-  color: blue;
+  color: rgb(76, 76, 160);
 }
 .container {
   margin: 120px auto;
@@ -39,9 +40,8 @@ form {
 }
 
 .instructions {
-  padding: 16px;
+  padding: 16px 24px;
   border: 1px solid;
-
   width: 80%;
   font-size: 16px;
   line-height: 20px;
@@ -53,15 +53,17 @@ form {
   padding: 16px 24px;
   font-size: 16px;
   width: 150px;
-  background-color: blue;
+  background-color: rgb(76, 76, 160);
   color: #fff;
+  border: 1px solid;
+  line-height: 20px;
 }
 .poem {
   font-size: 16px;
   background-color: #fff;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid blue;
+  border-left: 3px solid rgb(76, 76, 160);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -72,6 +74,8 @@ footer {
   text-align: center;
   font-size: 15px;
   margin-top: 30px;
+  color: #fff;
+  font-weight: 530;
 }
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
