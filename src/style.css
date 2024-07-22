@@ -1,5 +1,6 @@
 body {
   background-color: aliceblue;
+  background-image: url("https://images7.alphacoders.com/135/thumb-1920-1353023.png");
 }
 a {
   color: blue;
@@ -14,19 +15,29 @@ h1 {
   font-size: 36px;
   text-align: center;
 }
+.form-container {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-bottom: 30px;
+  padding: 30px;
+
+  border-radius: 10px;
+}
 
 header {
   margin-bottom: 30px;
 }
 
 form {
-  padding: 30px;
-  background-color: white;
-  border-radius: 10px;
   display: flex;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  margin-bottom: 30px;
 }
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 7px;
+  opacity: 0.6;
+}
+
 .instructions {
   padding: 16px;
   border: 1px solid;
@@ -54,8 +65,24 @@ form {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
+.hidden {
+  display: none;
+}
 footer {
   text-align: center;
   font-size: 15px;
   margin-top: 30px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
