@@ -1,13 +1,15 @@
 body {
-  background-color: aliceblue;
+  background-color: black;
   background-image: url("https://images7.alphacoders.com/135/thumb-1920-1353023.png");
   background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 a {
   color: rgb(76, 76, 160);
 }
 .container {
-  margin: 120px auto;
+  margin: 110px auto;
   max-width: 600px;
 }
 h1 {
